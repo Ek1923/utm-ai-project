@@ -1,0 +1,2 @@
+{"prompt": "Welke agent moet ik kiezen voor een vraag over Python code?", "response": "{\"agents\": [\"forge\"], \"reasoning\": \"Code vraag over Python — FORGE is de specialist\", \"announcement\": \"FORGE wordt ingeschakeld voor je Python vraag.\"}", "note": "routing_example"}
+{"prompt": "Wie weet het meest over geschiedenis?", "response": "{\"agents\": [\"atlas\"], \"reasoning\": \"Kennis en geschiedenis — ATLAS is de kennisrepository\", \"announcement\": \"ATLAS beantwoordt je geschiedenisvraag.\"}", "note": "routing_example"}

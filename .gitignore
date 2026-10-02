@@ -1,0 +1,38 @@
+# Dependencies - restored by setup.bat
+node_modules/
+.venv/
+__pycache__/
+
+# Build output
+dist/
+*.tsbuildinfo
+
+# Model weights and training output. 38 GB measured in the source tree; GitHub
+# refuses any single file over 100 MB.
+training/lora/merged/
+training/lora/output/
+*.gguf
+*.safetensors
+*.bin
+*.pt
+
+# Runtime state
+*.log
+*.db
+nexus.db
+.claude/
+
+# Derived knowledge graph - rebuildable from the source
+graphify-out/
+
+# Server-written runtime state. EXCLUDED ON PURPOSE AND NOT NEGOTIABLE: the app
+# stores user-entered credentials in these files. The copy in the source tree held
+# a live GitHub personal access token in nexus/server/data/system-config.json and a
+# Wolfram Alpha API key in nexus/server/data/integrations.json. The server recreates
+# both files empty on first run; the keys are entered in the UI.
+nexus/server/data/
+nexus/data/
+
+# Training logs - runtime output, and they embed absolute paths from the machine
+# that produced them.
+data/training-logs/

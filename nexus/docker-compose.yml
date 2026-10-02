@@ -1,0 +1,44 @@
+services:
+
+  nexus:
+    build: .
+    container_name: nexus-app
+    restart: unless-stopped
+    ports:
+      - "3001:3001"
+    environment:
+      - NODE_ENV=production
+      - PORT=3001
+      - OLLAMA_URL=http://ollama:11434
+    volumes:
+      - nexus-db:/app/nexus.db
+      - nexus-data:/app/data
+    depends_on:
+      ollama:
+        condition: service_started
+
+  ollama:
+    image: ollama/ollama:latest
+    container_name: nexus-ollama
+    restart: unless-stopped
+    ports:
+      - "11434:11434"
+    volumes:
+      - ollama-models:/root/.ollama
+    # ── GPU (RTX 4060) ─────────────────────────────────────────────────────────
+    # Uncomment the lines below to enable GPU acceleration.
+    # Requires: NVIDIA Container Toolkit installed on the host.
+    # Install: https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/install-guide.html
+    #
+    # deploy:
+    #   resources:
+    #     reservations:
+    #       devices:
+    #         - driver: nvidia
+    #           count: 1
+    #           capabilities: [gpu]
+
+volumes:
+  nexus-db:
+  nexus-data:
+  ollama-models:

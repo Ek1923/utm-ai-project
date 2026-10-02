@@ -1,0 +1,31 @@
+# FORGE Training Pipeline — Dependencies
+# Installeer met: pip install -r requirements.txt
+#
+# Vereisten: Python 3.10+, CUDA 12.1+, RTX 4060 Ti 16GB
+
+# Core training
+torch>=2.2.0
+torchvision
+torchaudio
+
+# HuggingFace ecosystem
+transformers>=4.40.0
+datasets>=2.18.0
+accelerate>=0.28.0
+tokenizers>=0.19.0
+safetensors>=0.4.3
+
+# LoRA / QLoRA
+peft>=0.10.0
+trl>=0.8.6
+
+# 4-bit quantization (QLoRA)
+bitsandbytes>=0.43.0
+
+# Utilities
+sentencepiece
+protobuf
+einops
+
+# GGUF conversie (llama.cpp Python bindings)
+# llama-cpp-python  ← optioneel, voor inference test na conversie

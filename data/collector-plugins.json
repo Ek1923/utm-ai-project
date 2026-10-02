@@ -1,0 +1,8 @@
+{
+  "wikipedia": true,
+  "stackoverflow": true,
+  "devto": true,
+  "github_readme": true,
+  "arxiv": false,
+  "hackernews": false
+}

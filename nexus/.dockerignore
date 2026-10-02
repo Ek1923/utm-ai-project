@@ -1,0 +1,9 @@
+node_modules
+client/node_modules
+client/dist
+server/dist
+*.log
+nexus.db
+.env.local
+training/.venv
+data/agents/**/*.bin

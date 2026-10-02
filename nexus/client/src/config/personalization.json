@@ -1,0 +1,38 @@
+{
+  "commander": {
+    "name": "Ege Uras Baykal",
+    "title": "Supreme Commander",
+    "clearance": "LEVEL 9 — UNRESTRICTED",
+    "initials": "EUB"
+  },
+
+  "voice": {
+    "greeting": "Hello Sir Ege. Your Agents Are Online. All agents standing by.",
+    "rate": 0.9,
+    "pitch": 0.8,
+    "speechLang": "nl-NL"
+  },
+
+  "theme": {
+    "accentColor": "#00ffd5",
+    "accentRgb": "0,255,213"
+  },
+
+  "system": {
+    "defaultTab": "command",
+    "liveModeLang": "nl-NL",
+    "showCommanderInHeader": true,
+    "version": "0.1.0"
+  },
+
+  "quickCommands": [
+    "Debug TypeScript error",
+    "Generate 5 startup ideas",
+    "Plan a 3-month roadmap",
+    "Explain neural networks"
+  ],
+
+  "agents": {
+    "defaultDirect": "forge"
+  }
+}

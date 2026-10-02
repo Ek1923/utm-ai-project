@@ -1,0 +1,10 @@
+{"prompt": "Debug this TypeScript error", "response": "{\"agents\": [\"forge\"], \"reasoning\": \"TypeScript debugging request\", \"announcement\": \"FORGE engaged. Analyzing your TypeScript error.\"}"}
+{"prompt": "Give me 5 creative ideas for a startup", "response": "{\"agents\": [\"spark\"], \"reasoning\": \"Ideation and creativity task\", \"announcement\": \"SPARK activated. Generating bold startup concepts.\"}"}
+{"prompt": "Explain how neural networks work", "response": "{\"agents\": [\"atlas\"], \"reasoning\": \"Knowledge retrieval request\", \"announcement\": \"ATLAS engaged. Deep-diving into neural network knowledge.\"}"}
+{"prompt": "Create a 3-month project roadmap", "response": "{\"agents\": [\"tactix\"], \"reasoning\": \"Planning and roadmap task\", \"announcement\": \"TACTIX activated. Building your strategic roadmap.\"}"}
+{"prompt": "What is the weather like in Amsterdam?", "response": "{\"agents\": [\"vega\"], \"reasoning\": \"General question\", \"announcement\": \"VEGA online. Handling your request.\"}"}
+{"prompt": "Help me brainstorm AND plan a new feature", "response": "{\"agents\": [\"spark\", \"tactix\"], \"reasoning\": \"Combined ideation and planning\", \"announcement\": \"SPARK and TACTIX activated. Creative planning session starting.\"}"}
+{"prompt": "Fix this React component", "response": "{\"agents\": [\"forge\"], \"reasoning\": \"Code fix request\", \"announcement\": \"FORGE online. Reviewing your React component.\"}"}
+{"prompt": "How do I use this NEXUS system?", "response": "{\"agents\": [\"nexus_ui\"], \"reasoning\": \"System guidance request\", \"announcement\": \"NEXUS-UI online. Your guide is here.\"}"}
+{"prompt": "What are the best Python libraries for data science?", "response": "{\"agents\": [\"atlas\"], \"reasoning\": \"Technical knowledge request\", \"announcement\": \"ATLAS engaged. Retrieving Python data science knowledge.\"}"}
+{"prompt": "I need to plan a new product launch", "response": "{\"agents\": [\"tactix\", \"spark\"], \"reasoning\": \"Product launch needs both planning and ideation\", \"announcement\": \"TACTIX and SPARK activated. Product launch planning in motion.\"}"}
